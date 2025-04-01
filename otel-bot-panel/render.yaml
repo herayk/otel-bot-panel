@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: otel-bot-panel
-    env: python
-    buildCommand: pip install -r otel-bot-panel/requirements.txt
-    startCommand: gunicorn app:app
-    plan: free
-    rootDir: otel-bot-panel
