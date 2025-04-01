@@ -47,6 +47,7 @@ def dashboard():
     conn.close()
     return render_template('dashboard.html', hotels=data)
 
-if __name__ == '__main__':
-    init_db()
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     init_db()
+#     app.run(debug=True)
+
